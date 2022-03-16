@@ -1,0 +1,33 @@
+div.ts_card {
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    font-size: 9px;
+    border: 1px solid black !important;
+    box-shadow: 3px 3px grey !important;
+}
+
+.x-border-layout-ct {
+    background-color: #fff;
+}
+
+div.legend-box {
+    border: 1px solid black
+}
+
+.rally-grid .x-grid-row.x-grid-row-alt .x-grid-cell, 
+.rally-grid .x-grid-row.x-grid-row-alt .x-grid-rowwrap-div, 
+.rally-grid .x-grid-row.x-grid-row-alt .x-grid-cell-special, 
+tr.x-grid-row-alt td, tr.x-grid-row-alt {
+    background-color: #e6e6e6;
+}
+
+.x-panel-body-default {
+    border: none;
+}
+
+.tstitle {
+    text-align: center;
+    border: none;
+    font-size: 200%;
+}

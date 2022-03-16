@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Integrated Planning Dashboard</title>
+    <!--  (c) 2015 Rally Software Development Corp.  All Rights Reserved. -->
+    <!--  Build Date: Tue Feb 02 2016 19:06:13 GMT-0800 (PST) -->
+    
+    <script type="text/javascript">
+        var APP_BUILD_DATE = "Tue Feb 02 2016 19:06:13 GMT-0800 (PST)";
+        var CHECKSUM = [%= checksum %];
+    </script>
+    
+    <script type="text/javascript" src="/apps/2.0/sdk.js"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function() {
+            
+            
+               Rally.launchApp('TSMilestoneRoadmapApp', {
+                   name: 'Integrated Planning Dashboard'
+               });
+        });
+    </script>
+    
+    <style type="text/css">
+
+div.ts_card {
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    font-size: 9px;
+    border: 1px solid black !important;
+    box-shadow: 3px 3px grey !important;
+}
+
+.x-border-layout-ct {
+    background-color: #fff;
+}
+
+div.legend-box {
+    border: 1px solid black
+}
+
+.rally-grid .x-grid-row.x-grid-row-alt .x-grid-cell, 
+.rally-grid .x-grid-row.x-grid-row-alt .x-grid-rowwrap-div, 
+.rally-grid .x-grid-row.x-grid-row-alt .x-grid-cell-special, 
+tr.x-grid-row-alt td, tr.x-grid-row-alt {
+    background-color: #e6e6e6;
+}
+
+.x-panel-body-default {
+    border: none;
+}
+
+.tstitle {
+    text-align: center;
+    border: none;
+    font-size: 200%;
+}
+    </style>
+
+</head>
+<body></body>
+</html>
